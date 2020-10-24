@@ -1,4 +1,4 @@
-# tailapp
+# dice
 
 ## Project setup
 ```
