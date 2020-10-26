@@ -1,17 +1,17 @@
 <template>
-  <div class="h-screen pt-8 bg-gradient-to-r from-blue-700 to-blue-500">
+  <div class="md:h-screen sm:h-full pt-8 bg-gradient-to-r from-blue-700 to-blue-500">
   <div class="w-auto px-6 py-12 mx-20 bg-white rounded-lg shadow-md">
     <h1 class="font-sans text-3xl font-hairline tracking-wide">Dice Game</h1>
     <h2 class="font-sans font-thin">
       Click 'Roll Dice' for a random dice roll
     </h2>
   </div>
-    <div class="flex content-center">
-      <div class="w-1/2 p-6 mt-6 ml-20 mr-10 text-2xl font-light text-center bg-white rounded-lg shadow-md">
+    <div class="md:flex md:flex-row sm:flex-col ml-20 mr-20">
+      <div class="md:w-1/2 sm:w-auto md:p-6 mt-6 md:mr-10 text-2xl font-light text-center bg-white rounded-lg shadow-md">
         White die
         <div class="font-mono text-6xl" v-bind:class="{ 'animate-spin': isRolling}">{{ whiteDie }}</div>
       </div>
-      <div class="w-1/2 p-6 mt-6 ml-10 mr-20 text-2xl font-light text-center bg-white rounded-lg shadow-md ">
+      <div class="md:w-1/2 sm:w-auto md:p-6 mt-6 md:ml-10 text-2xl font-light text-center bg-white rounded-lg shadow-md ">
         Red die
         <div class="font-mono text-6xl text-red-600" v-bind:class="{ 'animate-spin': isRolling}">{{ redDie }}</div>
       </div>
