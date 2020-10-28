@@ -1,5 +1,8 @@
 # dice
 
+## Live Demo
+https://zpeters.github.io/dice/
+
 ## Project setup
 ```
 yarn install
