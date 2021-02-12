@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen pt-8 bg-gradient-to-r from-blue-700 to-blue-500">
+  <div class="h-screen pt-8 bg-gradient-to-r from-blue-600 to-blue-700">
   <div class="w-auto px-6 py-12 mx-20 bg-white rounded-lg shadow-md">
     <h1 class="font-sans text-3xl font-hairline tracking-wide">Dice Game</h1>
     <h2 class="font-sans font-thin">
@@ -31,8 +31,8 @@ export default {
     return {
       isRolling: false,
       // whiteDice has the 'fake' sides (two five's)
-      whiteDice: [ '⚀','⚄', '⚂', '⚃', '⚄', '⚅' ],
-      redDice: [ '⚀','⚁', '⚂', '⚃', '⚄', '⚅' ],
+      whiteDice:  [ '⚀', '⚄', '⚄', '⚄', '⚄', '⚅' ],
+      redDice:    [ '⚀', '⚁', '⚂', '⚃', '⚄', '⚅' ],
       whiteDie: '?',
       redDie: '?'
     }
