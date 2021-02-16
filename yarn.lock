@@ -8422,10 +8422,10 @@ vm-browserify@^1.0.1:
   resolved "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vue-cli-plugin-tailwind@2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/vue-cli-plugin-tailwind/-/vue-cli-plugin-tailwind-2.0.5.tgz#955411fdcdb7735c6001e3f6912b06eeb1f052fc"
-  integrity sha512-A39gfjMn8Ht+uS2FlSv3Jm5rcai+2qr6b+RFC35DMKfQwm/iVtJ7SKa624E97eF8jsAcYTQvAJClGaN6VjQ7bw==
+vue-cli-plugin-tailwind@2.0.6:
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/vue-cli-plugin-tailwind/-/vue-cli-plugin-tailwind-2.0.6.tgz"
+  integrity sha512-HgR3gSmlnypNU+hlqoiRBJsnShXSoig4XTFNZiPlyVZBtkDZdfD884wTxz+GDJHzWLPtv4wnAyuO95UCsPbyoQ==
 
 vue-eslint-parser@^7.4.1:
   version "7.4.1"
