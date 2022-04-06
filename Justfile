@@ -14,6 +14,7 @@ install:
 
 outdated:
   vue outdated
+  yarn outdated
 
 deploy: install build lint
   cd dist
