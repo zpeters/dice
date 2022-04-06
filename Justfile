@@ -13,10 +13,7 @@ install:
   yarn
 
 outdated:
-  yarn outdated
-
-upgrade:
-  yarn upgrade
+  vue outdated
 
 deploy: install build lint
   cd dist
