@@ -6,9 +6,6 @@ dev: install
 build: install
 	yarn build
 
-lint: install
-	yarn lint
-
 install:
   yarn
 
@@ -16,7 +13,7 @@ outdated:
   vue outdated
   yarn outdated
 
-deploy: install build lint
+deploy: install build
   cd dist
   git init
   git add -A
