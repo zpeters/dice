@@ -10,7 +10,7 @@
   "dependencies": {
     "autoprefixer": "10.4.4",
     "core-js": "3.21.1",
-    "postcss": "8.4.12",
+    "postcss": "8.4.35",
     "vue": "3.2.32"
   },
   "devDependencies": {
