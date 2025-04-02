@@ -5,7 +5,7 @@ mkShell{
     just
     rsync
     # javascript
-    nodejs
+    nodejs_18
     nodePackages.yarn
   ];
 
